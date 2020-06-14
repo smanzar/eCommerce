@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background: #F8F9FD;
+  font-family: 'regular';
+}
+
+a {
+  font-family: 'medium';
+  color: #0C3183;
+  text-decoration: none;
+}
+
+.loginHeader {
+  background: #fff;
+}
+
+.btn-theme {
+  background: #0C3183;
+  color: #fff;
+  border-color: #0C3183;
+}
+
+.btn-theme:hover {
+  background: #0C3183;
+  color: #fff;
+  border-color: #0C3183;
+}
+
+.loginBoard {
+  min-height: calc(100vh - 60px);
+  padding: 2.5em 0;
+}
+
+.loginBoard .loginCard {
+  background: #FFFFFF;
+  max-width: 540px;
+  padding: 2rem 3rem;
+  margin: 0 auto;
+}
+
+.loginBoard .loginCard h2 {
+  font-size: 26px;
+  line-height: 35px;
+  color: #222222;
+  margin: 0;
+  font-family: 'medium';
+}
+
+.loginBoard .loginCard p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #1B1A1A;
+  font-family: 'medium';
+}
+
+.loginBoard .loginCard form {
+  margin-top: 3rem;
+}
+
+.loginBoard .loginCard form label {
+  font-size: 13px;
+  line-height: 18px;
+  color: #1B1A1A;
+  margin: 0;
+  font-family: 'medium';
+}
+
+.loginBoard .loginCard form .form-control {
+  color: #1B1A1A;
+  font-size: 13px;
+  color: #1B1A1A;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #1B1A1A;
+}
+
+.loginBoard .loginCard form .form-control::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.loginBoard .loginCard form .form-control:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.loginBoard .loginCard form .form-control::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.loginBoard .loginCard form .form-control::placeholder {
+  opacity: 0.5;
+}
+
+.loginBoard .loginCard form .form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #0C3183;
+}
+
+.loginBoard .loginCard form .btn-theme {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0.75rem 1rem;
+  font-family: 'medium';
+}
+
+.loginBoard .loginCard form .rememberForgot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.2rem 0 1rem;
+}
+
+.loginBoard .loginCard form .rememberForgot .form-check label {
+  color: #888D97;
+  font-family: 'regular';
+}
+
+.loginBoard .loginCard form .signin {
+  color: #888D97;
+  margin-top: 2rem;
+  font-family: 'medium';
+}
+
+.loginBoard .loginCard form .userType .form-group label {
+  font-size: 13px;
+  color: #888D97;
+}
+
+.loginBoard .loginCard form .passwordEye {
+  position: relative;
+}
+
+.loginBoard .loginCard form .passwordEye .fa-eye {
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  color: #BBBABA;
+}
+
+@media (max-width: 767px) {
+  .loginBoard .loginCard {
+    padding: 1.5rem;
+  }
+  .loginBoard .loginCard form {
+    margin-top: 0;
+  }
+  .loginBoard .loginCard form .btn-theme {
+    font-size: 17px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 767px) {
+  .loginBoard {
+    padding: 1em 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

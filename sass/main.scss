@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background: #F8F9FD;
+    font-family: 'regular';
+}
+
+a {
+    font-family: 'medium';
+    color: #0C3183;
+    text-decoration: none;
+}
+
+.loginHeader {
+    background: #fff;
+}
+
+.btn-theme {
+    background: #0C3183;
+    color: #fff;
+    border-color: #0C3183;
+    &:hover {
+        background: #0C3183;
+        color: #fff;
+        border-color: #0C3183;
+    }
+}
+
+.loginBoard {
+    min-height: calc(100vh - 60px);
+    padding: 2.5em 0;
+    .loginCard {
+        background: #FFFFFF;
+        max-width: 540px;
+        padding: 2rem 3rem;
+        margin: 0 auto;
+        h2 {
+            font-size: 26px;
+            line-height: 35px;
+            color: #222222;
+            margin: 0;
+            font-family: 'medium';
+        }
+        p {
+            font-size: 14px;
+            line-height: 19px;
+            color: #1B1A1A;
+            font-family: 'medium';
+        }
+        form {
+            margin-top: 3rem;
+            label {
+                font-size: 13px;
+                line-height: 18px;
+                color: #1B1A1A;
+                margin: 0;
+                font-family: 'medium';
+            }
+            .form-control {
+                color: #1B1A1A;
+                font-size: 13px;
+                color: #1B1A1A;
+                padding: 0;
+                border: 0;
+                border-radius: 0;
+                border-bottom: 1px solid #1B1A1A;
+                &::placeholder {
+                    opacity: 0.5;
+                }
+                &:focus {
+                    outline: 0;
+                    box-shadow: none;
+                    border-color: #0C3183;
+                }
+            }
+            .btn-theme {
+                font-size: 18px;
+                line-height: 24px;
+                padding: 0.75rem 1rem;
+                font-family: 'medium';
+            }
+            .rememberForgot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0.2rem 0 1rem;
+                .form-check {
+                    label {
+                        color: #888D97;
+                        font-family: 'regular';
+                    }
+                }
+            }
+            .signin {
+                color: #888D97;
+                margin-top: 2rem;
+                font-family: 'medium';
+            }
+            .userType {
+                .form-group {
+                    label {
+                        font-size: 13px;
+                        color: #888D97;
+                    }
+                }
+            }
+            .passwordEye {
+                position: relative;
+                .fa-eye {
+                    position: absolute;
+                    right: 0;
+                    bottom: 7px;
+                    color: #BBBABA;
+                }
+            }
+        }
+        @media(max-width: 767px) {
+            padding: 1.5rem;
+            form {
+                margin-top: 0;
+                .btn-theme {
+                    font-size: 17px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px) {
+        padding: 1em 0;
+    }
+}
